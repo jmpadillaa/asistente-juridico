@@ -1,0 +1,60 @@
+{
+  "zona": "-05:00",
+  "materias": [
+    {
+      "id": "civil", "nombre": "Derecho Civil II", "corto": "Civil II", "csv": "Civil II",
+      "docente": "Abg. Claudia Patiño Izquierdo", "color": "#2F6FB5", "colorOscuro": "#6FA3E0",
+      "conocimiento": "conocimiento/derecho_civil_II",
+      "resumenes": "salida/resumenes/derecho_civil_II",
+      "flashcards": "salida/flashcards/derecho_civil_II_unidad_01.csv",
+      "simulacro": "salida/examenes/derecho_civil_II_simulacro_unidad_01.md",
+      "repaso": "salida/material_estudio/DerechoCivilII/hoja_de_repaso_unidad_01.md",
+      "guia": "salida/analisis_guias/derecho_civil_II_analisis_guia.md",
+      "mapas": "civil",
+      "evaluacion": { "inicio": "2026-11-07T14:00", "fin": "2026-11-07T16:00" }
+    },
+    {
+      "id": "penal", "nombre": "Derecho Penal", "corto": "Penal", "csv": "Penal",
+      "docente": "Mgtr. Wilson Rodas Mogrovejo", "color": "#B4463C", "colorOscuro": "#E58A80",
+      "conocimiento": "conocimiento/derecho_penal",
+      "resumenes": "salida/resumenes/derecho_penal",
+      "flashcards": "salida/flashcards/derecho_penal_unidad_01.csv",
+      "simulacro": "salida/examenes/derecho_penal_simulacro_unidad_01.md",
+      "repaso": "salida/material_estudio/DerechoPenal/hoja_de_repaso_unidad_01.md",
+      "guia": "salida/analisis_guias/derecho_penal_analisis_guia.md",
+      "mapas": "penal",
+      "evaluacion": { "inicio": "2026-11-07T08:00", "fin": "2026-11-07T10:00" }
+    },
+    {
+      "id": "medicina", "nombre": "Medicina Legal", "corto": "Medicina Legal", "csv": "Medicina Legal",
+      "docente": "Abg. José David Mazón Loayza", "color": "#2A8A6B", "colorOscuro": "#6CCBA8",
+      "conocimiento": "conocimiento/medicina_legal",
+      "resumenes": "salida/resumenes/medicina_legal",
+      "flashcards": "salida/flashcards/medicina_legal_unidad_01.csv",
+      "simulacro": "salida/examenes/medicina_legal_simulacro_unidad_01.md",
+      "repaso": "salida/material_estudio/MedicinaLegal/hoja_de_repaso_unidad_01.md",
+      "guia": "salida/analisis_guias/medicina_legal_analisis_guia.md",
+      "mapas": "medicina",
+      "evaluacion": { "inicio": "2026-11-08T13:00", "fin": "2026-11-08T14:00" }
+    },
+    {
+      "id": "procesal", "nombre": "Derecho Procesal II (No Penal)", "corto": "Procesal II", "csv": "Procesal II",
+      "docente": "Abg. Ximena Orosco Aguilar", "color": "#B07A1E", "colorOscuro": "#E3B25F",
+      "conocimiento": "conocimiento/derecho_procesal_II_no_penal",
+      "resumenes": "salida/resumenes/derecho_procesal_II_no_penal",
+      "flashcards": "salida/flashcards/derecho_procesal_II_no_penal_unidad_01.csv",
+      "simulacro": "salida/examenes/derecho_procesal_II_no_penal_simulacro_unidad_01.md",
+      "repaso": "salida/material_estudio/DerechoProcesalIINoPenal/hoja_de_repaso_unidad_01.md",
+      "guia": "salida/analisis_guias/derecho_procesal_II_no_penal_analisis_guia.md",
+      "mapas": "procesal",
+      "evaluacion": { "inicio": "2026-11-07T10:00", "fin": "2026-11-07T12:00" }
+    }
+  ],
+  "plan": [
+    { "titulo": "Plan final (6 al 8 nov)", "archivo": "salida/planes_estudio/plan_final_6_8nov_2026.md" },
+    { "titulo": "Calendario del periodo", "archivo": "salida/planes_estudio/calendario_consolidado_2026_2027.md" },
+    { "titulo": "Horario de clases", "archivo": "salida/planes_estudio/horario_clases.md" },
+    { "titulo": "Pendientes de verificar", "archivo": "salida/investigacion/pendientes_de_verificacion_unidad_01.md" }
+  ],
+  "tareas_csv": "salida/planes_estudio/checklist_unidad1_microsoft_lists.csv"
+}

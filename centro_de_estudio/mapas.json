@@ -1,0 +1,321 @@
+{
+  "civil": [
+    {
+      "id": "clasificacion",
+      "titulo": "Clasificación de los bienes",
+      "nota": "Arts. 583 a 597 del Código Civil. Es la matriz que la docente dijo que toma en el examen (Semana_05, diapositiva 16).",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Bienes",
+        "c": [
+          {
+            "t": "Cosas corporales",
+            "n": "art. 583",
+            "c": [
+              {
+                "t": "Muebles",
+                "n": "art. 585",
+                "c": [
+                  { "t": "Por naturaleza", "c": [{ "t": "Semovientes", "n": "se mueven solos: caballo" }, { "t": "Inanimados", "n": "fuerza externa: computadora" }] },
+                  { "t": "Por anticipación", "n": "art. 589", "c": [{ "t": "Frutos y productos aún adheridos", "n": "naranjas en el árbol, madera en pie" }] }
+                ]
+              },
+              {
+                "t": "Inmuebles",
+                "n": "art. 586",
+                "c": [
+                  { "t": "Por naturaleza", "c": [{ "t": "Tierras, minas, canteras" }] },
+                  { "t": "Por adherencia", "n": "arts. 586, 587, 590", "c": [{ "t": "Edificios y árboles" }, { "t": "Espejo o cuadro embutido", "n": "cuadro con gancho = mueble" }] },
+                  { "t": "Por destino", "n": "art. 588", "c": [{ "t": "Tractor, alambiques, animales de la finca" }] }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "Cosas incorporales",
+            "n": "arts. 583 y 594",
+            "c": [
+              { "t": "Derechos reales", "n": "art. 595", "c": [{ "t": "Dominio y herencia" }, { "t": "Usufructo, uso, habitación" }, { "t": "Servidumbres activas" }, { "t": "Prenda e hipoteca" }] },
+              { "t": "Derechos personales", "n": "art. 596", "c": [{ "t": "Préstamo (acreedor y deudor)" }, { "t": "Alimentos del hijo contra el padre" }] }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "destino",
+      "titulo": "¿Es inmueble por destino?",
+      "nota": "Art. 588. Los tres requisitos deben cumplirse a la vez.",
+      "tipo": "flujo",
+      "datos": {
+        "pasos": [
+          { "t": "Es mueble por naturaleza", "n": "se puede transportar" },
+          { "t": "Está al servicio del inmueble", "n": "uso, cultivo o beneficio" },
+          { "t": "Es permanente", "n": "no un uso pasajero" },
+          { "t": "Lo puso el dueño de la finca", "n": "no un arrendatario" },
+          { "t": "Se reputa inmueble", "n": "aunque pueda separarse sin detrimento", "fin": true }
+        ],
+        "pie": "Ejemplo de la docente: un tractor alquilado una semana no es inmueble por destino. Una finca vendida \"con todo\" incluye tractor y animales."
+      }
+    },
+    {
+      "id": "consecuencias",
+      "titulo": "Mueble frente a inmueble: consecuencias",
+      "nota": "Por qué importa clasificar bien: \"categorizar mal un objeto invalida contratos y garantías\" (diapositivas 7 y 8).",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Mueble", "items": ["Se transfiere con la entrega", "Garantía: prenda", "Prescripción: plazos más cortos", "Ejemplo: computadora, joyas"] },
+          { "t": "Inmueble", "items": ["Escritura pública (art. 1740) e inscripción en el Registro de la Propiedad (arts. 702 y 703)", "Garantía: hipoteca, que debe inscribirse (art. 2312)", "Prescripción: plazos más largos", "Ejemplo: un lote, una casa"] }
+        ]
+      }
+    },
+    {
+      "id": "real-personal",
+      "titulo": "Derecho real frente a derecho personal",
+      "nota": "Arts. 595 y 596. Caso de clase: la casa de María.",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Derecho real", "items": ["Recae sobre una cosa", "Se opone a todos", "Ejemplos: dominio, usufructo, hipoteca", "Nace la acción real", "Caso: Rosa y el usufructo de la casa"] },
+          { "t": "Derecho personal", "items": ["Recae sobre una persona obligada", "Se opone solo al deudor", "Ejemplos: préstamo, alimentos", "Nace la acción personal", "Caso: María contra Juan por USD 500"] }
+        ]
+      }
+    },
+    {
+      "id": "separacion",
+      "titulo": "Separación momentánea",
+      "nota": "Art. 591.",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Sigue siendo inmueble", "items": ["Se separa para reparar", "Hay ánimo de volver a colocarla", "Ejemplo: un portón enviado a reparar"] },
+          { "t": "Pasa a ser mueble", "items": ["Se separa para darle otro destino", "Se vende o se regala", "Ejemplo: un jacuzzi desmontable que se regala"] }
+        ]
+      }
+    }
+  ],
+  "penal": [
+    {
+      "id": "filtros",
+      "titulo": "Los cuatro filtros del delito",
+      "nota": "Art. 18 COIP: infracción es la conducta típica, antijurídica y culpable. Si un filtro falla, no se sigue con el siguiente.",
+      "tipo": "flujo",
+      "datos": {
+        "pasos": [
+          { "t": "Conducta", "n": "arts. 22 a 24. Acción u omisión. Falla si hay fuerza irresistible, reflejo o inconsciencia." },
+          { "t": "Tipicidad", "n": "arts. 25 a 28.1. Tipo objetivo y subjetivo, dolo o culpa." },
+          { "t": "Antijuridicidad", "n": "arts. 29 a 33. Falla si hay causa de justificación (legítima defensa)." },
+          { "t": "Culpabilidad", "n": "arts. 34 y 35.1. Falla con trastorno mental o error de prohibición invencible." },
+          { "t": "Infracción", "n": "hay responsabilidad penal", "fin": true }
+        ],
+        "pie": "Zaffaroni, Alagia y Slokar: son filtros que limitan racionalmente el poder punitivo."
+      }
+    },
+    {
+      "id": "corrientes",
+      "titulo": "Causalismo frente a finalismo",
+      "nota": "Pregunta segura: en Ecuador rige el finalismo. La diferencia está en dónde van el dolo y la culpa.",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Causalismo clásico", "items": ["La acción es un proceso causal", "Dolo y culpa van en la culpabilidad"] },
+          { "t": "Finalismo (Welzel)", "destacado": true, "items": ["La acción es una conducta dirigida a un fin", "Dolo y culpa van en la tipicidad", "Es lo que sigue el COIP"] }
+        ]
+      }
+    },
+    {
+      "id": "tipicidad",
+      "titulo": "Tipicidad",
+      "nota": "Arts. 25 a 28.1.",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Tipicidad",
+        "c": [
+          { "t": "Tipo objetivo", "c": [{ "t": "Sujetos" }, { "t": "Bien jurídico" }, { "t": "Verbo (la conducta)" }, { "t": "Resultado" }, { "t": "Imputación objetiva", "n": "¿creó un riesgo jurídicamente desaprobado que se concretó en el resultado?" }] },
+          { "t": "Tipo subjetivo", "c": [{ "t": "Dolo" }, { "t": "Culpa", "n": "infracción del deber objetivo de cuidado" }] },
+          { "t": "Error de tipo", "n": "art. 28.1", "c": [{ "t": "Invencible: excluye la infracción" }, { "t": "Vencible: culpa, si hay tipo culposo" }] }
+        ]
+      }
+    },
+    {
+      "id": "legitima-defensa",
+      "titulo": "Antijuridicidad y legítima defensa",
+      "nota": "Arts. 29, 30, 31 y 33. La legítima defensa es una causa de justificación: queda excluida la antijuridicidad, no la tipicidad.",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Antijuridicidad",
+        "n": "art. 29",
+        "c": [
+          {
+            "t": "Causas de justificación",
+            "n": "art. 30",
+            "c": [
+              { "t": "Legítima defensa", "n": "art. 33", "c": [{ "t": "Agresión actual e ilegítima" }, { "t": "Necesidad racional de la defensa" }, { "t": "Sin provocación suficiente" }] }
+            ]
+          },
+          { "t": "Exceso", "n": "se examina si los requisitos no se cumplen del todo" }
+        ]
+      }
+    },
+    {
+      "id": "errores",
+      "titulo": "Error de tipo frente a error de prohibición",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Error de tipo", "items": ["Recae sobre un elemento objetivo del tipo", "Filtro: tipicidad (art. 28.1)", "Invencible: excluye la infracción", "Vencible: culpa, si hay tipo culposo", "Ejemplo: la estudiante que toma una mochila idéntica"] },
+          { "t": "Error de prohibición", "items": ["Recae sobre la ilicitud de la conducta", "Filtro: culpabilidad (art. 35.1)", "Invencible: sin responsabilidad", "Vencible: pena mínima reducida en un tercio"] }
+        ]
+      }
+    },
+    {
+      "id": "vistazo",
+      "titulo": "La evaluación de un vistazo",
+      "nota": "Lo que dijo el docente en la clase 6 (retroalimentación).",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Evaluación unidad 1",
+        "c": [
+          { "t": "Ley penal", "c": [{ "t": "Legalidad", "n": "nadie es sancionado por una conducta no tipificada al momento de realizarla" }, { "t": "Mínima intervención", "n": "solo si es necesaria y lo extrapenal es insuficiente" }] },
+          { "t": "Teoría del delito", "c": [{ "t": "Infracción (art. 18)" }, { "t": "Legítima defensa: antijuridicidad" }, { "t": "Trastorno mental: culpabilidad" }] },
+          { "t": "Corrientes", "c": [{ "t": "Ecuador es finalista" }, { "t": "Dolo y culpa en la tipicidad" }] },
+          { "t": "Casos", "c": [{ "t": "Camión y peatón: riesgo desaprobado" }, { "t": "Conductor distraído: culpa" }, { "t": "Delito o contravención" }] },
+          { "t": "Trampa", "n": "hay respuestas verdaderas que no contestan la pregunta: leer primero la pregunta" }
+        ]
+      }
+    }
+  ],
+  "procesal": [
+    {
+      "id": "proposicion",
+      "titulo": "Actos de proposición",
+      "nota": "COGEP. De mayor a menor prioridad según su hoja de repaso. Si la diapositiva difiere del texto de la norma, gana la norma.",
+      "tipo": "flujo",
+      "datos": {
+        "pasos": [
+          { "t": "Demanda", "n": "art. 142: 13 numerales. Documentos: art. 143." },
+          { "t": "Calificación", "n": "art. 146: 5 días." },
+          { "t": "Reforma", "n": "art. 148." },
+          { "t": "Contestación", "n": "arts. 151 y 152." },
+          { "t": "Reconvención", "n": "art. 154." },
+          { "t": "Falta de contestación", "n": "art. 157.", "fin": true }
+        ],
+        "pie": "En el procedimiento sumario no se puede reformar la demanda (art. 333.1)."
+      }
+    },
+    {
+      "id": "prueba",
+      "titulo": "La prueba",
+      "nota": "Arts. 158 a 169 del COGEP.",
+      "tipo": "arbol",
+      "datos": {
+        "t": "La prueba",
+        "c": [
+          { "t": "Finalidad", "n": "art. 158" },
+          { "t": "Oportunidad", "n": "art. 159" },
+          { "t": "Admisibilidad", "n": "art. 160" },
+          { "t": "No requieren prueba", "n": "art. 163" },
+          { "t": "Prueba nueva", "n": "art. 166", "c": [{ "t": "Solo la no conocida o que no pudo disponer" }] },
+          { "t": "Prueba para mejor resolver", "n": "art. 168" },
+          { "t": "Carga de la prueba", "n": "art. 169" }
+        ]
+      }
+    },
+    {
+      "id": "conclusion",
+      "titulo": "Formas extraordinarias de conclusión",
+      "nota": "Arts. 233 a 248. El cuadro completo está en la pestaña Repaso.",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Terminar el proceso sin sentencia de fondo",
+        "c": [
+          { "t": "Lo decide el actor", "c": [{ "t": "Retiro de la demanda", "n": "art. 236. Antes de la citación. Puede demandar de nuevo (máximo 2 veces)." }, { "t": "Desistimiento", "n": "arts. 237 a 240. Antes de la sentencia de primera instancia. No puede volver a demandar." }] },
+          { "t": "Lo decide el demandado", "c": [{ "t": "Allanamiento", "n": "arts. 241 a 244. No con derechos indisponibles." }] },
+          { "t": "Lo deciden ambas partes", "c": [{ "t": "Conciliación", "n": "arts. 233 y 234. En audiencia." }, { "t": "Transacción", "n": "art. 235." }] },
+          { "t": "Nadie actúa", "c": [{ "t": "Abandono", "n": "arts. 245 a 248. 6 meses desde la última notificación útil." }] }
+        ]
+      }
+    },
+    {
+      "id": "correcciones",
+      "titulo": "Correcciones frente a las diapositivas",
+      "nota": "Cuando la diapositiva contradice el COGEP, se responde con el texto de la norma.",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Dice la diapositiva", "items": ["Congruencia en el art. 252", "Prueba nueva con juramento y hechos sobrevenidos", "Prueba para mejor resolver con prohibición de suplencia", "Providencias preventivas incluyen embargo"] },
+          { "t": "Dice el COGEP", "destacado": true, "items": ["Congruencia: art. 92", "Art. 166: solo la no conocida o que no pudo disponer", "Art. 168: no dice nada sobre prohibición de suplencia", "No incluyen embargo"] }
+        ]
+      }
+    }
+  ],
+  "medicina": [
+    {
+      "id": "fenomenos",
+      "titulo": "Fenómenos cadavéricos recientes",
+      "nota": "Del más inmediato al más tardío.",
+      "tipo": "linea",
+      "datos": {
+        "puntos": [
+          { "cuando": "Al morir", "t": "Espasmo", "n": "Rigidez instantánea que fija la actitud de la muerte brusca. No se simula." },
+          { "cuando": "3 horas", "t": "Livideces", "n": "Manchas rojo-violáceas en zonas declives. No aparecen donde hay presión." },
+          { "cuando": "3 a 6 horas", "t": "Rigidez", "n": "Endurecimiento muscular. Mandíbula y cuello primero. Predominan los flexores." },
+          { "cuando": "24 horas", "t": "Enfriamiento", "n": "Iguala la temperatura ambiente, de afuera hacia adentro." }
+        ],
+        "pie": "La deshidratación (pérdida de líquidos, desecación de mucosas) no tiene hora en el material. La putrefacción (mancha verde) es un fenómeno tardío."
+      }
+    },
+    {
+      "id": "espasmo-rigidez",
+      "titulo": "Espasmo frente a rigidez cadavérica",
+      "nota": "El docente dijo que esta diferencia \"normalmente se toma en el examen\".",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Espasmo cadavérico", "destacado": true, "items": ["Aparece en el momento de la muerte", "Es instantáneo", "Fija la actitud de la muerte brusca", "No se simula"] },
+          { "t": "Rigidez cadavérica", "items": ["Aparece entre 3 y 6 horas", "Es progresivo", "Empieza por mandíbula y cuello", "Predominan los flexores"] }
+        ]
+      }
+    },
+    {
+      "id": "distancia",
+      "titulo": "Disparo a corta frente a larga distancia",
+      "tipo": "comparar",
+      "datos": {
+        "cols": [
+          { "t": "Corta distancia", "items": ["Tatuaje verdadero (pólvora incrustada)", "Negro de humo (se borra al lavar)", "Deshilachamiento de Rojas en la ropa", "Escarapela de Simonin", "Calcado de Bonnet", "Anillo de Fisch"] },
+          { "t": "Larga distancia", "items": ["Sin tatuaje", "Sin negro de humo", "Sin signos en la ropa", "Anillo de Fisch: sí aparece siempre"] }
+        ],
+        "pie": "El anillo de Fisch aparece en ambos casos y prueba que la lesión fue en vida."
+      }
+    },
+    {
+      "id": "arma-fuego",
+      "titulo": "Lesiones por arma de fuego",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Signos del disparo",
+        "c": [
+          { "t": "En la piel", "c": [{ "t": "Anillo de Fisch", "n": "siempre; prueba lesión en vida" }, { "t": "Tatuaje verdadero", "n": "pólvora incrustada; corta distancia" }, { "t": "Negro de humo", "n": "se borra al lavar; corta distancia" }] },
+          { "t": "En la ropa", "c": [{ "t": "Rojas", "n": "deshilachamiento" }, { "t": "Simonin", "n": "escarapela" }, { "t": "Bonnet", "n": "calcado" }] }
+        ]
+      }
+    },
+    {
+      "id": "divisiones",
+      "titulo": "Las 12 divisiones de la medicina legal",
+      "nota": "\"Medicina criminal\" es incorrecto porque restringe la disciplina al derecho penal. Las tres ramas son una agrupación propia para memorizar las 12 divisiones; el docente no las agrupó así.",
+      "tipo": "arbol",
+      "datos": {
+        "t": "Medicina legal",
+        "n": "también: forense, legal judicial, pericial, jurídica, del derecho",
+        "c": [
+          { "t": "Del cuerpo", "c": [{ "t": "Traumatología médico legal" }, { "t": "Tanatología" }, { "t": "Asfixiología" }, { "t": "Toxicología forense" }] },
+          { "t": "De la persona", "c": [{ "t": "Toco-ginecología forense" }, { "t": "Sexología" }, { "t": "Pediatría médico legal" }, { "t": "Psiquiatría forense" }, { "t": "Genética forense" }] },
+          { "t": "Del ejercicio y la prueba", "c": [{ "t": "Jurisprudencia médica" }, { "t": "Criminalística" }, { "t": "Deontología médica" }] }
+        ]
+      }
+    }
+  ]
+}

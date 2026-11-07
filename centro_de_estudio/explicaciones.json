@@ -1,0 +1,170 @@
+{
+  "civil:clasificacion_de_los_bienes": {
+    "corto": "El Código Civil ordena todo lo que se puede tener en grupos: lo que se toca y lo que no, lo que se mueve y lo que no. Según el grupo cambian las reglas para comprarlo, regalarlo o darlo en garantía.",
+    "texto": [
+      "Piensa en una casa llena de cosas. El terreno y las paredes no se pueden llevar a otro lugar: son inmuebles. La laptop, la cama y el perro sí se pueden llevar: son muebles. Hasta ahí es fácil.",
+      "Lo difícil son los casos intermedios, y ahí se concentra el examen. La ley a veces trata como inmueble algo que físicamente se puede mover (el tractor de una finca, el espejo embutido en la pared) y como mueble algo que físicamente está pegado a la tierra (las naranjas aún en el árbol, cuando se venden antes de cosecharlas). Se mira para qué sirve la cosa y qué decidió su dueño, no solo si pesa o se mueve.",
+      "¿Por qué importa? Porque un mueble se transfiere entregándolo y un inmueble exige escritura pública e inscripción. Porque el mueble se da en prenda y el inmueble en hipoteca. Y porque la prescripción tarda menos en los muebles. Clasificar mal una cosa puede dejar sin valor un contrato."
+    ],
+    "ejemplo": "Compras una finca «con todo». Entran el terreno y la casa (inmuebles), el tractor y las vacas que el dueño usaba para trabajarla (muebles que la ley trata como inmuebles por destino) y un espejo embutido en la pared. No entran el cuadro colgado de un clavo ni un tractor que alguien alquiló por una semana.",
+    "ojo": "El destino exige tres cosas a la vez: servir a la finca, de forma permanente y puesto por el dueño. Si falta una, sigue siendo mueble. Y sacar algo un rato para repararlo (separación momentánea) no le quita la calidad de inmueble.",
+    "terminos": ["mueble","inmueble","inmueble-adherencia","inmueble-destino","mueble-anticipacion","separacion-momentanea","fungible","hipoteca","prenda","escritura-publica","registro-propiedad","prescripcion"]
+  },
+  "civil:cosas_incorporales_derechos_reales_y_personales": {
+    "corto": "Además de las cosas que se tocan, la ley protege derechos. Hay dos clases: los que tienes sobre una cosa y los que tienes frente a una persona.",
+    "texto": [
+      "Un derecho real es un poder directo sobre una cosa. Si eres dueño de una casa, nadie puede entrar sin tu permiso y puedes reclamarle a cualquiera que lo haga. No depende de una persona concreta.",
+      "Un derecho personal, o crédito, es la facultad de exigir algo a una persona que se obligó contigo. Si le prestaste dinero a Juan, solo se lo puedes cobrar a Juan. No puedes ir contra su vecino.",
+      "De cada derecho nace su demanda: la acción real o la acción personal. Y los derechos también se cuentan como muebles o inmuebles según la cosa sobre la que se ejercen: el usufructo de una casa es inmueble y el crédito en dinero es mueble."
+    ],
+    "ejemplo": "Caso de la casa de María. Rosa tiene el usufructo de la casa: es un derecho real, y lo puede defender frente a cualquiera. María le prestó USD 500 a Juan: es un derecho personal, y solo se los puede reclamar a Juan.",
+    "ojo": "Que Rosa no sea dueña no cambia que su derecho sea real. La dueña es María, que en este caso es la nuda propietaria.",
+    "terminos": ["derecho-real","derecho-personal","accion-real","accion-personal","erga-omnes","usufructo","nuda-propiedad","acreedor-deudor","servidumbre","hipoteca"]
+  },
+  "civil:posesion_y_acciones_posesorias": {
+    "corto": "La posesión es comportarse como dueño de una cosa. La ley la protege aunque todavía no se pruebe que eres el dueño, para que nadie se haga justicia por su mano.",
+    "texto": [
+      "Poseer no es lo mismo que ser dueño. Poseer es tener la cosa con ánimo de señor y dueño: la cuidas, la cercas, la usas como tuya. Puede que además seas el dueño, o que no.",
+      "Si alguien te perturba, puedes pedir amparo posesorio para que te sigan respetando. Si te quitaron la posesión, pides restitución. Si te despojaron con violencia, el restablecimiento es una vía rápida con plazo de seis meses.",
+      "En estos juicios no se discute quién es el dueño, solo quién posee. Por eso se llaman juicios posesorios."
+    ],
+    "ejemplo": "Tu vecino retira el cerramiento de tu terreno para pasar su camioneta: es una turbación, y lo que pides es amparo posesorio. Si en cambio te saca con violencia y se queda con el lote, pides restablecimiento dentro de seis meses.",
+    "ojo": "Tres demandas para tres situaciones: perturbar (amparo), quitar injustamente (restitución) y despojar con violencia (restablecimiento). La demanda de amparo se evalúa en la tutoría presencial.",
+    "terminos": ["posesion","amparo-posesorio","turbacion","restitucion","restablecimiento","juicio-posesorio","dominio"]
+  },
+  "civil:bienes_publicos_y_derecho_de_propiedad": {
+    "corto": "No todo tiene un dueño particular: hay bienes que son de toda la Nación y otros que todos pueden usar. Y el derecho de propiedad tiene límites.",
+    "texto": [
+      "Los bienes nacionales son los que pertenecen a toda la Nación (art. 604). Dentro de ellos, los de uso público los puede usar cualquier persona, como los ríos y los lagos naturales (art. 612).",
+      "Los bienes del Estado son las tierras sin otro dueño dentro del territorio (art. 605).",
+      "El derecho de propiedad, o dominio, permite gozar y disponer de una cosa, pero respetando la ley y los derechos de los demás (art. 599)."
+    ],
+    "ejemplo": "Un camino que un particular construyó en su propio terreno no es bien nacional solo porque deje pasar a otros (art. 608). El río que cruza el pueblo sí es de uso público.",
+    "ojo": "El material de este tema está incompleto: falta la lectura de Morand-Deviller. La docente dijo que lo más amplio de bienes se ve en la unidad 2, sin tomar examen.",
+    "terminos": ["bienes-nacionales","bienes-uso-publico","bienes-estado","dominio","nuda-propiedad"]
+  },
+
+  "penal:la_ley_penal_en_el_estado_constitucional": {
+    "corto": "El Estado puede castigar, pero con reglas: solo por lo que la ley dijo antes que estaba prohibido, solo cuando es necesario y sin pasar por encima de la dignidad de la persona.",
+    "texto": [
+      "Imagina que el Estado tiene un arma muy poderosa: la cárcel. El derecho penal es el conjunto de reglas que dicen cuándo y cómo se puede usar. Un Estado constitucional es el que se pone límites a sí mismo.",
+      "Legalidad: nadie puede ser sancionado por algo que, cuando lo hizo, no estaba tipificado como infracción. Eso exige una ley escrita, anterior al hecho, sin analogía en perjuicio de la persona y con una descripción clara.",
+      "Mínima intervención: el derecho penal es el último recurso. Si un problema se arregla con la ley civil o la laboral, no se acude a la penal. Proporcionalidad: la pena debe corresponder a la gravedad de la infracción."
+    ],
+    "ejemplo": "Si una conducta se prohíbe recién mañana, hoy no se te puede castigar por haberla hecho ayer. Un conflicto por una deuda se resuelve en lo civil, no con cárcel.",
+    "ojo": "El docente avisó que en el examen puede haber respuestas verdaderas que no contestan la pregunta. «Todos son inocentes hasta la sentencia ejecutoriada» es cierto, pero no es legalidad.",
+    "terminos": ["ley-penal","estado-constitucional","principio-legalidad","lex","analogia","minima-intervencion","proporcionalidad","dignidad-humana","sentencia-ejecutoriada","poder-punitivo"]
+  },
+  "penal:elementos_de_la_tipicidad": {
+    "corto": "Tipicidad es comprobar que lo que pasó encaja exactamente en lo que la ley describe como delito. Se revisa pieza por pieza.",
+    "texto": [
+      "El tipo penal es la descripción de la conducta prohibida. Tiene un verbo (matar, robar), una persona que lo hace (sujeto activo), una persona que lo sufre (sujeto pasivo, titular del bien que se protege) y un bien jurídico (la vida, el patrimonio).",
+      "Tiene una parte objetiva (lo que se ve: la conducta, el resultado, el riesgo creado) y una subjetiva (lo que pasaba por la mente: dolo o culpa).",
+      "La imputación objetiva pregunta si el resultado se le puede atribuir a la persona porque ella creó un riesgo que la ley desaprueba y ese riesgo es el que terminó en el daño. Si manejaba respetando las normas y alguien se lanzó a la calzada de forma imprevisible, no creó un riesgo desaprobado.",
+      "Dolo: sabía lo que hacía y lo quiso. Culpa: no quiso el daño, pero descuidó el deber de cuidado. Error de tipo: no sabía que realizaba un elemento del delito."
+    ],
+    "ejemplo": "Un conductor usa una computadora mientras maneja y atropella a alguien: no quería atropellar, pero infringió el deber de cuidado. Eso es culpa. Quien toma una mochila idéntica a la suya creyendo que es suya actúa con error de tipo: no sabía que era ajena.",
+    "ojo": "En un caso, haz las tres preguntas en orden: ¿hay riesgo desaprobado?, ¿hay dolo o culpa?, ¿hay error de tipo? En tránsito normalmente se analiza la culpa.",
+    "terminos": ["tipo-penal","tipicidad","verbo-rector","sujeto-activo","sujeto-pasivo","bien-juridico","objeto-material","elemento-normativo","imputacion-objetiva","riesgo-desaprobado","dolo","culpa","deber-cuidado","error-tipo"]
+  },
+  "penal:teoria_del_delito_y_corrientes": {
+    "corto": "Es el método para decidir si una persona responde penalmente: se pasa por cuatro filtros, en orden. Si falla uno, no se sigue.",
+    "texto": [
+      "Los cuatro filtros son conducta, tipicidad, antijuridicidad y culpabilidad. Una conducta que supera los cuatro es una infracción (art. 18).",
+      "Conducta: ¿hubo una acción u omisión de la persona? No la hay si la empujaron con fuerza irresistible, si fue un reflejo o si estaba inconsciente. Tipicidad: ¿encaja en el tipo penal? Antijuridicidad: ¿estaba justificada? La legítima defensa la excluye. Culpabilidad: ¿se le puede reprochar? Un trastorno mental o un error sobre la ilicitud la excluyen.",
+      "Causalismo y finalismo son dos escuelas que discrepan en un punto: dónde poner el dolo y la culpa. El causalismo los pone en la culpabilidad. El finalismo, que es el que sigue Ecuador, los pone en la tipicidad."
+    ],
+    "ejemplo": "Pedro lesiona a Juan para repeler una agresión actual e ilegítima, con necesidad racional de defenderse y sin haberlo provocado. Hay conducta y tipicidad, pero la antijuridicidad queda excluida por legítima defensa: no hay infracción.",
+    "ojo": "Según el docente es lo más importante de la unidad. Practica aplicarlo a casos: di qué filtro falla y por qué. Y recuerda: Ecuador es finalista.",
+    "terminos": ["teoria-delito","infraccion","delito-contravencion","conducta","derecho-penal-acto","omision","ausencia-conducta","antijuridicidad","causa-justificacion","legitima-defensa","exceso-defensa","culpabilidad","imputabilidad","error-prohibicion","causalismo","finalismo"]
+  },
+
+  "procesal:actos_de_proposicion_demanda_contestacion_y_reconvencion": {
+    "corto": "Son los primeros escritos del juicio: con ellos cada parte dice qué pide, qué responde y cómo se defiende. Todo lo que pase después se mide contra estos escritos.",
+    "texto": [
+      "El actor presenta la demanda, que según el art. 142 debe cumplir 13 requisitos, con los documentos del art. 143. El juez la califica en cinco días (art. 146). Puede reformarse en los casos que el COGEP permite (art. 148).",
+      "El demandado responde con la contestación (arts. 151 y 152) y puede defenderse con excepciones. Si además quiere reclamarle algo al actor, lo hace en el mismo juicio con la reconvención (art. 154). Si no contesta, la ley prevé consecuencias (art. 157).",
+      "Preclusión significa que la oportunidad pasa y se pierde. Por eso lo que quieras probar hay que anunciarlo a tiempo, en la demanda o en la contestación."
+    ],
+    "ejemplo": "Te cobran una deuda. Contestas que ya la pagaste (excepción) y a la vez reclamas que el actor te debe dinero por otro contrato (reconvención).",
+    "ojo": "Aprende los artículos de esta cadena: 142, 143, 146, 148, 151, 152, 154 y 157. En el procedimiento sumario no se puede reformar la demanda (art. 333.1).",
+    "terminos": ["acto-proposicion","demanda","actor-demandado","pretension","legitimacion","citacion","contestacion","excepcion","reconvencion","preclusion"]
+  },
+  "procesal:la_prueba_y_los_medios_de_prueba": {
+    "corto": "Probar es convencer al juez de que lo que afirmas ocurrió. Hay reglas de tiempo, de forma y sobre quién debe probar qué.",
+    "texto": [
+      "La prueba sirve para demostrar los hechos que las partes discuten (art. 158). Hay que anunciarla a tiempo (art. 159) y debe ser pertinente, útil y conducente (arts. 160 y 161): que se relacione con los hechos, que sirva y que sea capaz de demostrarlos.",
+      "Hay hechos que no necesitan prueba (art. 163). Quien afirma un hecho tiene la carga de probarlo (art. 169). El juez valora las pruebas juntas con sana crítica (art. 164).",
+      "Dos casos especiales: la prueba nueva, que se admite si no se conocía o no se pudo tener antes (art. 166), y la prueba para mejor resolver, que el juez ordena por su cuenta cuando necesita aclarar algo (art. 168)."
+    ],
+    "ejemplo": "Afirmas que pagaste una deuda: te toca probarlo, por ejemplo con el recibo, y debes anunciarlo en la contestación. Si el recibo aparece después y no lo pudiste tener antes, pides que se admita como prueba nueva.",
+    "ojo": "Las diapositivas decían cosas que el COGEP no dice (juramento, hechos sobrevenidos, prohibición de suplencia). Responde con el texto de la norma.",
+    "terminos": ["prueba","pertinencia","conducencia","utilidad","sana-critica","carga-prueba","prueba-nueva","prueba-mejor-resolver","de-oficio","perito","preclusion"]
+  },
+  "procesal:formas_extraordinarias_de_conclusion_del_proceso": {
+    "corto": "Un juicio no siempre termina con sentencia. A veces termina antes porque las partes se ponen de acuerdo, una se retira o nadie hace nada.",
+    "texto": [
+      "Las formas se distinguen por quién actúa. El actor puede retirar la demanda (antes de la citación) o desistir (antes de la sentencia de primera instancia). El demandado puede allanarse, es decir, aceptar la pretensión. Ambas partes pueden conciliar o transigir. Y si nadie hace nada durante seis meses, hay abandono.",
+      "Dos diferencias que se confunden: con el retiro puedes volver a demandar (máximo dos veces); con el desistimiento, no. Y ni el allanamiento ni el desistimiento valen cuando el derecho es indisponible."
+    ],
+    "ejemplo": "Demandaste y aún no citaron al demandado: puedes retirar la demanda y presentarla de nuevo. Si ya estaban en juicio y renuncias a tu pretensión, ya no podrás demandar lo mismo.",
+    "ojo": "El cuadro de la hoja de repaso resume quién actúa, hasta cuándo y con qué efecto. Es lo que más conviene memorizar.",
+    "terminos": ["retiro-demanda","desistimiento","allanamiento","conciliacion","transaccion","abandono","derecho-indisponible","citacion"]
+  },
+  "procesal:diligencias_preparatorias_providencias_preventivas_y_apremios": {
+    "corto": "Son medidas para que el juicio sirva de algo: antes de demandar, para preparar o anticipar prueba; durante el juicio, para que el deudor no esconda sus bienes; y al final, para obligar a cumplir lo ordenado.",
+    "texto": [
+      "Diligencias preparatorias (art. 120): se piden antes de la demanda, para completar datos del demandado o para asegurar una prueba que podría perderse.",
+      "Providencias preventivas (arts. 124 a 133): protegen el cobro o la cosa que se discute. Son el secuestro, la retención, la prohibición de enajenar inmuebles y el arraigo. El deudor puede detenerlas dando una caución (art. 128). Si no se presenta la demanda en quince días, caducan (art. 133).",
+      "Apremios (art. 134): son los medios para obligar a cumplir una orden del juez, sobre la persona (apremio personal) o sobre sus bienes (apremio real)."
+    ],
+    "ejemplo": "Temes que quien te debe dinero venda su única propiedad antes del juicio. Pides prohibición de enajenar. Tienes quince días para demandar o la medida caduca.",
+    "ojo": "Las providencias preventivas no incluyen el embargo, aunque una diapositiva lo decía. Recuerda: audiencia en 48 horas, caducidad en 15 días y el apremio cesa a los 30 días.",
+    "terminos": ["diligencia-preparatoria","providencia-preventiva","secuestro","retencion","arraigo","prohibicion-enajenar","caucion","caducidad","apremio"]
+  },
+  "procesal:sujetos_procesales_y_principio_dispositivo": {
+    "corto": "Quién participa en un juicio, quién representa a quién y quién manda sobre el proceso: las partes son dueñas del juicio y el juez solo resuelve lo que le piden.",
+    "texto": [
+      "Las partes son quien demanda y contra quien se demanda (art. 30). Si varios tienen el mismo derecho, pueden nombrar un procurador común (art. 37). Un tercero puede entrar a un proceso ya iniciado: es la tercería (arts. 46 a 50), por ejemplo cuando alega que el bien embargado es suyo.",
+      "El principio dispositivo dice que las partes deciden si inician el juicio, qué piden y cuándo termina, siempre que se trate de derechos disponibles.",
+      "La congruencia obliga al juez a resolver sobre lo que se pidió, ni más ni menos (art. 92)."
+    ],
+    "ejemplo": "Si pides USD 1.000, el juez no puede condenar a pagar USD 5.000, aunque crea que se debe más.",
+    "ojo": "La congruencia está en el art. 92, no en el 252 como decían las diapositivas.",
+    "terminos": ["parte","actor-demandado","procurador-comun","terceria","principio-dispositivo","objeto-proceso","congruencia","derecho-indisponible"]
+  },
+
+  "medicina:la_medicina_forense_y_su_aplicacion": {
+    "corto": "La medicina legal es el puente entre la medicina y el derecho: el médico responde preguntas que el juez no puede responder solo.",
+    "texto": [
+      "Cuando un juez necesita saber de qué murió una persona, cuánto tardará en sanar una lesión o si alguien tiene una enfermedad mental, consulta a un perito médico. Esa colaboración es la medicina legal.",
+      "Tiene varios nombres: forense, legal, judicial, pericial, jurídica. «Medicina criminal» es incorrecto porque la limita al derecho penal, cuando también sirve a otras ramas.",
+      "Se divide en 12 ramas, desde la tanatología (la muerte y el cadáver) hasta la toxicología (las sustancias tóxicas), la genética forense (el ADN) o la deontología (los deberes éticos del médico)."
+    ],
+    "ejemplo": "En una muerte sospechosa, la autopsia estudia el cuerpo (tanatología), el análisis toxicológico busca sustancias y la criminalística recoge los indicios del lugar.",
+    "ojo": "Aprende las 12 divisiones. El mapa de esta materia las agrupa en tres ramas para recordarlas más fácil.",
+    "terminos": ["medicina-legal","pericia","jurisprudencia-medica","traumatologia","tanatologia","asfixiologia","toco-ginecologia","sexologia","pediatria-legal","criminalistica","toxicologia","psiquiatria","genetica","deontologia"]
+  },
+  "medicina:lesionologia_lesiones_por_arma_de_fuego": {
+    "corto": "Un disparo deja señales en la piel y en la ropa que permiten saber a qué distancia se disparó y si la persona estaba viva.",
+    "texto": [
+      "La pólvora no se quema del todo. Si el disparo es cercano, granos de pólvora quedan incrustados en la piel (tatuaje verdadero) o queda hollín que se borra al lavar (negro de humo). En la ropa también quedan marcas: Rojas, Simonin y Bonnet.",
+      "El anillo de Fisch es la marca en el borde del orificio de entrada. Aparece siempre y demuestra que la herida se produjo en vida.",
+      "Entonces: tatuaje y negro de humo apuntan a corta distancia; si faltan, el disparo fue de larga distancia. El anillo de Fisch aparece en ambos casos y dice si la persona estaba viva."
+    ],
+    "ejemplo": "Un orificio con pólvora incrustada que no sale al lavar, rodeado por un anillo, indica un disparo cercano y una herida producida en vida.",
+    "ojo": "Lo que más se pregunta: la diferencia entre tatuaje verdadero y negro de humo (se borra o no) y qué prueba el anillo de Fisch.",
+    "terminos": ["arma-fuego","balistica","contusion","excoriacion","anillo-fisch","tatuaje","negro-humo","signo-rojas","escarapela-simonin","calcado-bonnet"]
+  },
+  "medicina:tanatologia_forense": {
+    "corto": "Cuando alguien muere, el cuerpo cambia en un orden predecible. Esos cambios sirven para calcular cuánto tiempo hace que murió.",
+    "texto": [
+      "Primero vienen los fenómenos recientes: el cuerpo se deshidrata, se enfría hasta igualar la temperatura ambiente (unas 24 horas), la sangre se acumula en las zonas bajas (livideces, visibles desde las 3 horas) y los músculos se endurecen (rigidez, entre 3 y 6 horas).",
+      "Después viene la putrefacción: los gérmenes del intestino destruyen los tejidos. Su primer signo es la mancha verde abdominal. Más adelante los órganos pierden su forma (etapa colicuativa).",
+      "El espasmo cadavérico es distinto de la rigidez: aparece en el momento de la muerte y fija la postura que tenía la persona. La rigidez aparece horas después. El espasmo no se puede simular."
+    ],
+    "ejemplo": "Si un cuerpo ya tiene livideces y rigidez, pasaron por lo menos varias horas desde la muerte. Si aún no hay ninguna de las dos, la muerte fue más reciente.",
+    "ojo": "Espasmo frente a rigidez: el docente dijo que «normalmente se toma en el examen».",
+    "terminos": ["tanatologia","fenomenos-cadavericos","deshidratacion","enfriamiento","livideces","declive","rigidez","espasmo","putrefaccion","mancha-verde","colicuativa","autopsia"]
+  }
+}

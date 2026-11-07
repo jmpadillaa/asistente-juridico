@@ -1,0 +1,24 @@
+Jhonny Mauricio Padilla Alvear
+Derecho Civil II, IV ciclo, paralelo D
+Semana 5, ACD 2: La casa de María y el préstamo de Juan
+
+1. ¿Qué tipo de derecho tiene Rosa sobre la vivienda: real o personal? Explique su respuesta considerando que Rosa no es propietaria del inmueble.
+
+Rosa tiene un derecho real. El artículo 594 del Código Civil divide las cosas incorporales en derechos reales y derechos personales, y el artículo 595 define el derecho real como el que tenemos sobre una cosa sin respecto a determinada persona. Ese mismo artículo enumera entre los derechos reales el de usufructo, que es justamente el que tiene Rosa, y el art. 778 lo define expresamente como un derecho real.
+
+Que Rosa no sea propietaria no cambia la respuesta. El usufructo supone dos derechos que coexisten: el del nudo propietario, que es María, y el del usufructuario, que es Rosa (art. 779). Rosa puede usar y gozar de la casa por sí misma, durante el tiempo que dure el usufructo, y al terminar la casa vuelve a María y el dominio se consolida. De este derecho nacen las acciones reales (art. 595), es decir, Rosa puede reclamar la casa a quien le impida ejercerlo. Por recaer sobre un inmueble, el usufructo es también un bien inmueble (art. 597).
+
+2. ¿Qué tipo de derecho tiene María frente a Juan por el préstamo de $500? Justifique su respuesta señalando quién es el acreedor, quién es el deudor y qué obligación debe cumplirse.
+
+María tiene un derecho personal o crédito. El artículo 596 dice que los derechos personales son los que solo pueden reclamarse de ciertas personas que, por un hecho suyo, han contraído las obligaciones correlativas, y pone como ejemplo el que tiene el prestamista contra su deudor por el dinero prestado, que es exactamente este caso.
+
+La acreedora es María, que prestó el dinero. El deudor es Juan, que lo recibió. La obligación que debe cumplirse es devolver los $500 en el plazo de un mes, que ya venció sin que Juan pagara. De este derecho nacen las acciones personales (art. 596), y María solo puede dirigirlas contra Juan. Como el dinero es una cosa mueble (art. 593), el crédito para que se lo paguen también se considera mueble (art. 597).
+
+3. ¿Cuál es la principal diferencia entre el derecho que tiene Rosa sobre la casa y el derecho que tiene María para exigir la devolución del dinero? Explique con sus propias palabras.
+
+La diferencia está en contra quién se puede exigir cada uno. Rosa tiene su derecho sobre la casa misma, sin depender de una persona determinada: si alguien más perturba su uso, o si la propiedad cambiara de manos, el usufructo sigue sobre la casa y ella puede hacerlo valer. María, en cambio, solo puede reclamar a Juan, porque su derecho nace de una obligación que él asumió. Si Juan no paga, María no puede ir contra la casa de Rosa ni contra otra persona, solo contra Juan.
+
+Dicho con otras palabras: el derecho de Rosa es un poder directo sobre una cosa, y el de María es la facultad de exigirle algo a una persona concreta. Los dos son derechos patrimoniales, como piensa María, pero uno es real (art. 595) y el otro es personal (art. 596).
+
+Referencias
+Código Civil del Ecuador (2024 [última reforma]). Arts. 593, 594, 595, 596, 597, 778 y 779.

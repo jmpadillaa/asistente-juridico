@@ -1,0 +1,16 @@
+Jhonny Mauricio Padilla Alvear
+Derecho Civil II, IV ciclo, paralelo D
+Semana 6, actividad práctica: bienes inmuebles
+
+¿Por qué es importante conocer la clasificación de los bienes inmuebles en el Derecho Civil ecuatoriano y cómo se relaciona con el derecho de propiedad? Explique su respuesta mediante un ejemplo práctico de la vida cotidiana.
+
+Importa conocerla porque de saber si una cosa es inmueble depende la forma en que se compra, se transfiere y se da en garantía, y por tanto si el comprador llega a ser dueño o no. El Código Civil parte de que las cosas corporales se dividen en muebles e inmuebles (art. 584). Son inmuebles las que no pueden transportarse de un lugar a otro, como las tierras y minas, y las que adhieren permanentemente a ellas, como los edificios y los árboles (art. 586). A eso se suman las plantas mientras adhieren al suelo por sus raíces, salvo las que están en macetas o cajones que pueden moverse (art. 587), y las cosas muebles que el dueño destina de forma permanente al uso, cultivo y beneficio de un inmueble, como los utensilios de labranza o los animales de una finca, que la ley reputa inmuebles por su destino (art. 588).
+
+La relación con el derecho de propiedad está en que el dominio es el derecho real en una cosa corporal para gozar y disponer de ella (art. 599), y para los inmuebles la ley exige más formalidades que para los muebles. La venta de bienes raíces no se reputa perfecta ante la ley mientras no se otorgue escritura pública (art. 1740). La tradición del dominio de un bien raíz se hace por la inscripción del título en el Registro de la Propiedad (art. 702), en el cantón donde está el inmueble (art. 703). La hipoteca también debe inscribirse; sin inscripción no tiene valor (art. 2312). Quien confunde un inmueble con un mueble puede creer que le basta con pagar y recibir las llaves, y quedarse sin ser dueño.
+
+Ejemplo cotidiano. Ana compra a don Luis una casa en Loja. En la casa hay un terreno y un edificio, un naranjo plantado en el patio, un espejo embutido en la pared del baño, un cuadro colgado de un clavo en la sala y una planta en maceta. El terreno y el edificio son inmuebles (art. 586) y el naranjo también, porque adhiere al suelo por sus raíces (art. 587). El espejo embutido forma un mismo cuerpo con la pared y se considera parte de ella (art. 590), así que se vende con la casa. El cuadro colgado y la planta en maceta son muebles (arts. 590 y 587), y don Luis puede llevárselos si no se pactó lo contrario.
+
+Para que Ana sea dueña no basta pagar y recibir las llaves. Debe firmarse la escritura pública de compraventa (art. 1740) e inscribirla en el Registro de la Propiedad (art. 702). Si no se inscribe, no se hace la tradición y el dominio sigue a nombre de don Luis. Si Ana además pide un préstamo al banco con la casa en garantía, la hipoteca debe inscribirse también (art. 2312); sin esa inscripción no vale.
+
+Referencias
+Código Civil del Ecuador (2024 [última reforma]). Arts. 584, 586, 587, 588, 590, 599, 702, 703, 1740 y 2312.

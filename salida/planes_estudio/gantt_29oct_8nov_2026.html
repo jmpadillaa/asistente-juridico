@@ -1,0 +1,410 @@
+<title>Gantt de la Unidad 1</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Concepto: calendario de 11 columnas (jue 29 oct a dom 8 nov), filas agrupadas por materia.
+   Color = materia (orden fijo, validado). La fila y la etiqueta nombran todo; el color no es el único código. */
+:root {
+  --bg: #f6f6f3;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink2: #52514e;
+  --muted: #76756e;
+  --line: #e2e1dc;
+  --tint: #f3f2ee;
+  --tint2: #eae9e4;
+  --on-bar: #0b0b0b;
+  --c1: #2a78d6;
+  --c2: #eb6834;
+  --c3: #1baf7a;
+  --c4: #eda100;
+  --font: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121211; --surface: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --muted: #9c9b92;
+    --line: #2f2f2c; --tint: #212120; --tint2: #2a2a28;
+    --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121211; --surface: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --muted: #9c9b92;
+  --line: #2f2f2c; --tint: #212120; --tint2: #2a2a28;
+  --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 14px; line-height: 1.45;
+  padding-block: 28px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+h1 { font-size: clamp(22px, 3.2vw, 30px); font-weight: 600; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.sub { color: var(--ink2); margin: 4px 0 0; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 0; padding: 0; list-style: none; }
+.facts li { min-width: 0; }
+.facts b { font-family: var(--mono); font-weight: 500; font-size: 20px; letter-spacing: -0.01em; }
+.facts span { display: block; color: var(--ink2); font-size: 12.5px; }
+
+.bar-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  padding: 5px 11px; border-radius: 999px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+}
+.chip:hover { border-color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.chip:focus-visible, summary:focus-visible { outline: 2px solid var(--c1); outline-offset: 2px; }
+.dot { width: 9px; height: 9px; border-radius: 2px; background: var(--c); flex: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--ink2); font-size: 12.5px; align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.lg { width: 26px; height: 14px; border-radius: 3px; display: inline-block; }
+.lg.work { background: var(--ink2); }
+.lg.rev { border: 2px solid var(--ink2); background: var(--surface); }
+.lg.tut { border: 2px dashed var(--ink2); background: var(--surface); }
+.lg.ev { background: var(--ink); }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow-x: auto; }
+.grid { display: grid; grid-template-columns: 250px repeat(11, minmax(66px, 1fr)); min-width: 1000px; }
+.grid > div { border-bottom: 1px solid var(--line); min-width: 0; }
+.lab { position: sticky; left: 0; z-index: 3; background: var(--surface); padding: 8px 14px; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid var(--line); }
+.lab .n { font-weight: 500; font-size: 13.5px; }
+.lab .m { color: var(--muted); font-size: 12px; font-family: var(--mono); }
+.hd { background: var(--surface); padding: 9px 4px 8px; text-align: center; position: sticky; top: 0; z-index: 2; }
+.hd.lab { z-index: 4; align-items: flex-start; text-align: left; justify-content: flex-end; color: var(--muted); font-size: 12px; }
+.hd .wd { font-size: 12px; color: var(--ink2); text-transform: uppercase; letter-spacing: 0.06em; }
+.hd .dn { font-family: var(--mono); font-size: 17px; font-weight: 500; }
+.hd .tg { font-size: 11px; color: var(--ink2); min-height: 15px; }
+.wk { background: var(--tint); }
+.hol { background: repeating-linear-gradient(135deg, var(--tint) 0 6px, var(--tint2) 6px 8px); }
+.exm { background: var(--tint2); }
+.dl { border-right: 2px dashed var(--ink2); }
+.today .dn { background: var(--ink); color: var(--surface); border-radius: 6px; padding: 0 7px; display: inline-block; }
+.grp { grid-column: 1 / -1; background: var(--surface); padding: 12px 14px 8px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; border-bottom: 1px solid var(--line); }
+.grp .sw { width: 12px; height: 12px; border-radius: 3px; background: var(--c); align-self: center; }
+.grp h2 { font-size: 14px; font-weight: 600; margin: 0; }
+.grp .pt { color: var(--ink2); font-size: 12.5px; }
+.cell { padding: 5px 3px; display: flex; align-items: center; justify-content: center; gap: 4px; height: 44px; }
+.bar {
+  flex: 1 1 auto; min-width: 0; height: 28px; border-radius: 4px; display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 12px; font-weight: 500; background: var(--c); color: var(--on-bar); white-space: nowrap; overflow: hidden;
+}
+.bar.rev { background: var(--surface); border: 2px solid var(--c); color: var(--ink2); font-family: var(--font); font-weight: 400; }
+.bar.tut { background: var(--surface); border: 2px dashed var(--c); color: var(--ink); font-family: var(--font); font-weight: 500; }
+.bar.ev { background: var(--ink); color: var(--surface); font-family: var(--font); font-weight: 500; }
+.due { flex: none; width: 14px; height: 14px; display: block; }
+.due path { fill: var(--ink); stroke: var(--surface); stroke-width: 2; }
+.tot { background: var(--surface); }
+.tot .lab { background: var(--surface); }
+.load { height: 84px; display: flex; align-items: flex-end; justify-content: center; padding: 8px 8px 6px; gap: 4px; flex-direction: column; }
+.load .col { width: 100%; max-width: 44px; background: var(--ink2); border-radius: 4px 4px 0 0; }
+.load .v { font-family: var(--mono); font-size: 12px; color: var(--ink); text-align: center; width: 100%; }
+.load .na { color: var(--muted); font-size: 11.5px; text-align: center; width: 100%; margin: auto 0; }
+
+.notes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 28px; }
+.notes h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink2); font-weight: 600; margin: 0 0 6px; }
+.notes ul { margin: 0; padding-left: 18px; color: var(--ink); }
+.notes li { margin-bottom: 4px; }
+.src { color: var(--muted); font-size: 12.5px; margin: 0; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+summary { cursor: pointer; font-weight: 500; }
+.tbl { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 13px; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink2); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+td.num { font-family: var(--mono); white-space: nowrap; }
+.sec { font-size: 15px; font-weight: 600; margin: 0 0 10px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 12px; }
+.cl { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: flex; flex-direction: column; gap: 6px; min-width: 0; border-top: 4px solid var(--c); }
+.cl h3 { font-size: 14.5px; font-weight: 600; margin: 0; }
+.cl .when { font-family: var(--mono); font-size: 13px; }
+.cl .doc { color: var(--ink2); font-size: 13px; overflow-wrap: anywhere; }
+.cl .nt { color: var(--ink2); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 6px; margin-top: 2px; }
+.cl a { color: var(--ink); overflow-wrap: anywhere; font-size: 13px; }
+.cl .row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.btn { font: inherit; font-size: 12px; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 3px 9px; cursor: pointer; }
+.btn:hover { border-color: var(--muted); }
+.btn:focus-visible, .cl a:focus-visible { outline: 2px solid var(--c1); outline-offset: 2px; }
+#tip {
+  position: fixed; z-index: 50; pointer-events: none; background: var(--ink); color: var(--surface); font-size: 12.5px;
+  padding: 6px 9px; border-radius: 6px; max-width: 260px; opacity: 0; transition: opacity .08s;
+}
+@media (prefers-reduced-motion: reduce) { #tip { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Gantt de la Unidad 1</h1>
+    <p class="sub">Jueves 29 de octubre al domingo 8 de noviembre de 2026 · Civil II, Penal, Medicina Legal y Procesal II</p>
+  </header>
+
+  <ul class="facts" id="facts"></ul>
+
+  <div class="bar-top">
+    <div class="chips" id="chips" role="group" aria-label="Filtrar por materia"></div>
+    <div class="legend" aria-label="Leyenda">
+      <span><i class="lg work"></i>Trabajo (horas)</span>
+      <span><i class="lg rev"></i>Repaso</span>
+      <span><i class="lg tut"></i>Tutoría</span>
+      <span><i class="lg ev"></i>Evaluación</span>
+      <span><svg class="due" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 1 13 7 7 13 1 7Z"/></svg>Fecha límite</span>
+    </div>
+  </div>
+
+  <div class="card"><div class="grid" id="grid"></div></div>
+
+  <section>
+    <h2 class="sec">Tutorías por Zoom</h2>
+    <div class="cards" id="cards"></div>
+    <p class="src" style="margin-top:10px">La asistencia a las tutorías no es obligatoria, pero las actividades calificadas sí. Receso: 17 de diciembre al 3 de enero. Fuente: eventos de tu calendario y los correos de las docentes.</p>
+  </section>
+
+  <section class="notes">
+    <div>
+      <h3>Por confirmar</h3>
+      <ul>
+        <li>Fecha de la demanda de Civil II: la guía dice 1 de noviembre y la docente no la mencionó el 28 de octubre.</li>
+        <li>Foro síncrono de Procesal II: probablemente es la tutoría del viernes 30 a las 19:00; confírmalo con la docente.</li>
+        <li>Retroalimentación de Civil II: la docente dijo miércoles 4; tu calendario la tiene el jueves 5. El miércoles 4 coincide con Penal a las 19:00.</li>
+        <li>Medicina Legal tiene tutoría los lunes 18:00 y el lunes 2 es feriado: confirma si hay clase.</li>
+        <li>Horario de las evaluaciones del 7 y 8 de noviembre en cada materia.</li>
+        <li>Medicina Legal, autónoma: la guía la cerraba el 18 de octubre; confirma si sigue abierta.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Cómo leerlo</h3>
+      <ul>
+        <li>Los bloques son una propuesta mía. Las horas son estimaciones del trabajo que pide cada actividad, no tu tiempo libre real.</li>
+        <li>El mapa conceptual de Civil II vence el 8, pero el plan lo termina el 5 porque el 7 y 8 hay evaluaciones.</li>
+        <li>Lunes 2 y martes 3 son feriado: úsalos para repasar. Las horas de repaso no están fijadas.</li>
+      </ul>
+    </div>
+  </section>
+
+  <details>
+    <summary>Ver como tabla</summary>
+    <div class="tbl"><table id="tbl"></table></div>
+  </details>
+
+  <p class="src">Fuentes: guías y sílabos de cada materia (actividades, puntos y fechas) y anuncios de la docente de Derecho Civil II en el EVA (cambio del mapa conceptual al 8 de noviembre). Horas: estimación de este plan.</p>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+(function () {
+  var DAYS = [
+    { w: "Jue", n: 29, mo: "oct", full: "jueves 29 de octubre", tag: "Hoy", cls: "today" },
+    { w: "Vie", n: 30, mo: "oct", full: "viernes 30 de octubre" },
+    { w: "Sáb", n: 31, mo: "oct", full: "sábado 31 de octubre", cls: "wk" },
+    { w: "Dom", n: 1, mo: "nov", full: "domingo 1 de noviembre", tag: "Vence 23h00", cls: "wk dl" },
+    { w: "Lun", n: 2, mo: "nov", full: "lunes 2 de noviembre", tag: "Feriado", cls: "hol" },
+    { w: "Mar", n: 3, mo: "nov", full: "martes 3 de noviembre", tag: "Feriado", cls: "hol" },
+    { w: "Mié", n: 4, mo: "nov", full: "miércoles 4 de noviembre", tag: "Retroalim." },
+    { w: "Jue", n: 5, mo: "nov", full: "jueves 5 de noviembre" },
+    { w: "Vie", n: 6, mo: "nov", full: "viernes 6 de noviembre" },
+    { w: "Sáb", n: 7, mo: "nov", full: "sábado 7 de noviembre", tag: "Evaluaciones", cls: "exm" },
+    { w: "Dom", n: 8, mo: "nov", full: "domingo 8 de noviembre", tag: "Evaluaciones", cls: "exm" }
+  ];
+  var DUE = 3;
+
+  // k: tipo de actividad · p: puntos · c: bloques por día (h = horas, t = repaso | tut | ev) · due: índice del día de entrega
+  var GROUPS = [
+    { id: "civil", name: "Derecho Civil II", c: "var(--c1)", rows: [
+      { name: "Caso «La casa de María»", k: "ACD 2 · video foro", p: 1, c: { 0: { h: 1.5 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Demanda de amparo posesorio", k: "APE", p: 2.5, c: { 0: { h: 1.5 }, 1: { h: 1.5 } }, due: 3, dueTxt: "Dom 1 nov (según la guía)" },
+      { name: "Mapa conceptual de bienes", k: "AA", p: 2, c: { 6: { h: 1.5 }, 7: { h: 1 } }, due: 10, dueTxt: "Dom 8 nov" },
+      { name: "Repaso de Semana_05.pdf", k: "Evaluación", c: { 5: { t: "rev" }, 8: { t: "rev" } } }
+    ]},
+    { id: "penal", name: "Derecho Penal", c: "var(--c2)", rows: [
+      { name: "Ensayo: función de la teoría del delito", k: "APE", p: 2.5, c: { 0: { h: 3 }, 1: { h: 2 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Caso práctico integrador", k: "ACD 2 · video foro", p: 1, c: { 2: { h: 2 }, 3: { h: 1 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Infografía: elementos de la tipicidad", k: "AA", p: 2, c: { 3: { h: 4 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Repaso de semanas 2 a 4", k: "Evaluación", c: { 4: { t: "rev" }, 7: { t: "rev" } } }
+    ]},
+    { id: "ml", name: "Medicina Legal", c: "var(--c3)", rows: [
+      { name: "Lesionología: caso y ficha", k: "APE", p: 2.5, c: { 1: { h: 3 }, 2: { h: 1 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Caso de arma de fuego", k: "ACD 2 · video foro", p: 1, c: { 2: { h: 2.5 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Lectura de Basile y test de 50 preguntas", k: "AA", p: 2, c: { 0: { h: 3 }, 3: { h: 2 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Repaso de semanas 2 a 4", k: "Evaluación", c: { 4: { t: "rev" }, 8: { t: "rev" } } }
+    ]},
+    { id: "proc", name: "Derecho Procesal II (No Penal)", c: "var(--c4)", rows: [
+      { name: "Estudio de caso: letra de cambio", k: "APE", p: 2.5, c: { 1: { h: 3.5 }, 2: { h: 1.5 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Infografía: actos de proposición", k: "AA", p: 2, c: { 2: { h: 3 } }, due: 3, dueTxt: "Dom 1 nov, 23h00" },
+      { name: "Foro síncrono (tutoría del viernes, por confirmar)", k: "ACD 2 · foro", p: 1, c: { 1: { h: 1 } }, due: 3, dueTxt: "Dom 1 nov (sesión probable: vie 30, 19:00)" },
+      { name: "Repaso: COGEP arts. 120 a 249", k: "Evaluación", c: { 5: { t: "rev" }, 8: { t: "rev" } } }
+    ]}
+  ];
+  var TUT = { id: "tut", name: "Tutorías por Zoom (la asistencia no es obligatoria)", c: "var(--ink2)", rows: [
+    { name: "Civil II · jueves 19:00 a 21:00", k: "Tutoría", gid: "civil", col: "var(--c1)", c: {
+      0: { t: "tut", l: "Sin clase", n: "la docente está en una delegación universitaria" },
+      6: { t: "tut", l: "Retroalim.", n: "retroalimentación según la docente (miércoles); hora por confirmar" },
+      7: { t: "tut", l: "19–21 h", n: "horario habitual del jueves; tu calendario la tiene aquí. Confirma si se mantiene" } } },
+    { name: "Penal · miércoles 19:00 a 21:00", k: "Tutoría", gid: "penal", col: "var(--c2)", c: { 6: { t: "tut", l: "19–21 h" } } },
+    { name: "Procesal II · viernes 19:00 a 21:00", k: "Tutoría", gid: "proc", col: "var(--c4)", c: {
+      1: { t: "tut", l: "19–21 h", n: "probable sesión del foro síncrono de la semana 5" }, 8: { t: "tut", l: "19–21 h" } } },
+    { name: "Medicina Legal · lunes 18:00 a 20:00", k: "Tutoría", gid: "ml", col: "var(--c3)", c: {
+      4: { t: "tut", l: "18–20 h", n: "es feriado (Día de los Muertos): confirma si hay clase" } } }
+  ]};
+  var EVAL = { id: "eval", name: "Evaluación de la unidad 1", c: "var(--ink)", rows: [
+    { name: "Penal", k: "Sáb 7 · 8h00 a 10h00", p: 3.5, pTxt: "3,5 pts", c: { 9: { t: "ev", l: "8–10 h" } } },
+    { name: "Procesal II", k: "Sáb 7 · 10h00 a 12h00", p: 3.5, pTxt: "3,5 pts", c: { 9: { t: "ev", l: "10–12 h" } } },
+    { name: "Civil II", k: "Sáb 7 · 14h00 a 16h00", p: 3.5, pTxt: "3,5 pts", c: { 9: { t: "ev", l: "14–16 h" } } },
+    { name: "Medicina Legal", k: "Dom 8 · 13h00 a 14h00", p: 3.5, pTxt: "3,5 pts", c: { 10: { t: "ev", l: "13–14 h" } } }
+  ]};
+
+  function fmt(n) { return String(n).replace(".", ","); }
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  var SVG = '<svg class="due" viewBox="0 0 14 14" role="img" aria-label="Fecha límite"><path d="M7 1 13 7 7 13 1 7Z"/></svg>';
+
+  // totales calculados desde los mismos datos
+  var hoursPerDay = DAYS.map(function () { return 0; });
+  var allRows = [];
+  GROUPS.forEach(function (g) { g.rows.forEach(function (r) { r.g = g; allRows.push(r);
+    Object.keys(r.c).forEach(function (i) { if (r.c[i].h) hoursPerDay[i] += r.c[i].h; }); }); });
+  var totalH = hoursPerDay.slice(0, DUE + 1).reduce(function (a, b) { return a + b; }, 0);
+  var dueRows = allRows.filter(function (r) { return r.due === DUE; });
+  var duePts = dueRows.reduce(function (a, r) { return a + r.p; }, 0);
+
+  var facts = document.getElementById("facts");
+  [[String(dueRows.length), "entregas vencen el domingo 1, 23h00"], [fmt(duePts), "puntos en juego ese día"],
+   ["≈" + fmt(totalH) + " h", "de trabajo estimado hasta el domingo 1"], ["2", "puntos más el 8 (mapa) y 4 evaluaciones de 3,5"]]
+    .forEach(function (f) { var li = el("li"); li.appendChild(el("b", null, f[0])); li.appendChild(el("span", null, f[1])); facts.appendChild(li); });
+
+  var grid = document.getElementById("grid");
+  var corner = el("div", "hd lab", "Actividad"); grid.appendChild(corner);
+  DAYS.forEach(function (d) {
+    var h = el("div", "hd " + (d.cls || ""));
+    h.appendChild(el("div", "wd", d.w));
+    h.appendChild(el("div", "dn", String(d.n)));
+    h.appendChild(el("div", "tg", d.tag || ""));
+    grid.appendChild(h);
+  });
+
+  function renderGroup(g, gid) {
+    var head = el("div", "grp"); head.dataset.g = gid; head.style.setProperty("--c", g.c);
+    head.appendChild(el("i", "sw")); head.appendChild(el("h2", null, g.name));
+    var pts = g.rows.reduce(function (a, r) { return a + (r.due != null ? r.p : 0); }, 0);
+    if (g.id !== "eval" && g.id !== "tut") head.appendChild(el("span", "pt", fmt(pts) + " pts en entregas · evaluación 3,5"));
+    grid.appendChild(head);
+    g.rows.forEach(function (r) {
+      var rg = r.gid || gid, col = r.col || g.c;
+      var lab = el("div", "lab"); lab.dataset.g = rg;
+      lab.appendChild(el("div", "n", r.name));
+      lab.appendChild(el("div", "m", r.k + (r.p != null ? " · " + (r.pTxt || fmt(r.p) + " pts") : "")));
+      grid.appendChild(lab);
+      DAYS.forEach(function (d, i) {
+        var c = el("div", "cell " + (d.cls || "")); c.dataset.g = rg;
+        var b = r.c[i];
+        if (b) {
+          var bar = el("div", "bar" + (b.t ? " " + b.t : ""), b.h ? fmt(b.h) + " h" : (b.l || "Repaso"));
+          bar.style.setProperty("--c", col);
+          bar.dataset.tip = r.name + " · " + d.full + (b.h ? ": " + fmt(b.h) + " h" : b.t === "rev" ? ": repaso" : b.t === "tut" ? (b.n ? ": " + b.n : "") : "");
+          c.appendChild(bar);
+        }
+        if (r.due === i) {
+          var m = el("span"); m.innerHTML = SVG; var s = m.firstChild; s.dataset.tip = "Vence: " + r.dueTxt;
+          c.appendChild(s);
+        }
+        grid.appendChild(c);
+      });
+    });
+  }
+  GROUPS.forEach(function (g) { renderGroup(g, g.id); });
+  renderGroup(TUT, "eval");
+  renderGroup(EVAL, "eval");
+
+  // carga por día
+  var lt = el("div", "lab tot", ""); lt.appendChild(el("div", "n", "Horas por día")); lt.appendChild(el("div", "m", "suma de los bloques de trabajo")); grid.appendChild(lt);
+  DAYS.forEach(function (d, i) {
+    var c = el("div", "load " + (d.cls || ""));
+    var hrs = hoursPerDay[i];
+    if (hrs > 0) {
+      var bar = el("div", "col"); bar.style.height = Math.round(hrs / 10 * 52) + "px"; bar.dataset.tip = d.full + ": " + fmt(hrs) + " h de trabajo";
+      c.appendChild(el("div", "v", fmt(hrs) + " h")); c.appendChild(bar);
+    } else c.appendChild(el("div", "na", i >= 9 ? "evaluación" : i === 6 ? "mapa y tutoría" : "repaso"));
+    grid.appendChild(c);
+  });
+
+  // filtro por materia
+  var chips = document.getElementById("chips"), active = "todas";
+  try { active = localStorage.getItem("gantt-filtro") || "todas"; } catch (e) {}
+  var ids = ["todas"].concat(GROUPS.map(function (g) { return g.id; }));
+  if (ids.indexOf(active) < 0) active = "todas";
+  function apply() {
+    grid.querySelectorAll("[data-g]").forEach(function (n) { n.hidden = !(active === "todas" || n.dataset.g === active || n.dataset.g === "eval"); });
+    chips.querySelectorAll("button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.id === active)); });
+  }
+  ids.forEach(function (id) {
+    var g = GROUPS.filter(function (x) { return x.id === id; })[0];
+    var b = el("button", "chip"); b.type = "button"; b.dataset.id = id; b.id = "chip-" + id;
+    if (g) { var d = el("i", "dot"); d.style.setProperty("--c", g.c); b.appendChild(d); b.appendChild(document.createTextNode(g.name.replace(" (No Penal)", ""))); } else b.textContent = "Todas";
+    b.addEventListener("click", function () { active = id; try { localStorage.setItem("gantt-filtro", id); } catch (e) {} apply(); });
+    chips.appendChild(b);
+  });
+  apply();
+
+  // tarjetas de tutorías
+  var CLASES = [
+    { m: "Derecho Civil II", c: "var(--c1)", w: "Jueves, 19:00 a 21:00", d: "Abg. Claudia Patiño Izquierdo, Mgt.", e: "claudia.patino@unl.edu.ec", z: "https://cedia.zoom.us/j/89351741237",
+      n: "La semana 5 se dio el miércoles 28 y la docente subió la grabación a YouTube. El jueves 29 no hay clase. Grabaciones:",
+      r: [["Semana 1", "https://youtube.com/live/XVvFQw2sRa8"], ["Semana 3", "https://youtube.com/live/XzWZmQk7zeU"], ["Semana 4", "https://youtube.com/live/1nfV0ujBQ5k"]] },
+    { m: "Derecho Penal (paralelo D)", c: "var(--c2)", w: "Miércoles, 19:00 a 21:00", d: "Mgtr. Wilson Rafael Rodas Mogrovejo", e: "wilson.rodas@unl.edu.ec", z: "https://cedia.zoom.us/j/86872920338",
+      n: "Próxima: miércoles 4 de noviembre. Coincide con la retroalimentación de Civil II." },
+    { m: "Derecho Procesal II (No Penal)", c: "var(--c4)", w: "Viernes, 19:00 a 21:00", d: "Abg. Ximena Alexandra Orosco Aguilar, Mgtr.", e: "ximena.orosco@unl.edu.ec", z: "https://cedia.zoom.us/j/88018304803",
+      n: "Próximas: viernes 30 de octubre y viernes 6 de noviembre. El foro síncrono de la semana 5 sigue el horario de conexión." },
+    { m: "Medicina Legal (paralelo D)", c: "var(--c3)", w: "Lunes, 18:00 a 20:00", d: "Abg. José David Mazón Loayza", e: "jose.mazon@unl.edu.ec", z: "https://cedia.zoom.us/j/87803726145",
+      n: "No es obligatoria ni calificada. El video foro tiene sesión sincrónica y alternativa asincrónica de martes a domingo. El lunes 2 es feriado." }
+  ];
+  var cards = document.getElementById("cards");
+  CLASES.forEach(function (k) {
+    var c = el("article", "cl"); c.style.setProperty("--c", k.c);
+    c.appendChild(el("h3", null, k.m)); c.appendChild(el("div", "when", k.w));
+    c.appendChild(el("div", "doc", k.d + " · " + k.e));
+    var row = el("div", "row"), a = el("a", null, k.z); a.href = k.z; a.target = "_blank"; a.rel = "noopener";
+    var b = el("button", "btn", "Copiar enlace"); b.type = "button";
+    b.addEventListener("click", function () {
+      try { navigator.clipboard.writeText(k.z).then(function () { b.textContent = "Copiado"; }, function () { b.textContent = "Copia el enlace"; }); }
+      catch (e) { b.textContent = "Copia el enlace"; }
+    });
+    row.appendChild(a); row.appendChild(b); c.appendChild(row);
+    var nt = el("div", "nt", k.n);
+    if (k.r) {
+      nt.appendChild(document.createTextNode(" "));
+      k.r.forEach(function (x, i) {
+        var l = el("a", null, x[0]); l.href = x[1]; l.target = "_blank"; l.rel = "noopener"; nt.appendChild(l);
+        if (i < k.r.length - 1) nt.appendChild(document.createTextNode(" · "));
+      });
+    }
+    c.appendChild(nt); cards.appendChild(c);
+  });
+
+  // tabla
+  var t = document.getElementById("tbl");
+  t.innerHTML = "<thead><tr><th>Materia</th><th>Actividad</th><th>Tipo</th><th>Puntos</th><th>Fecha límite</th><th>Horas</th></tr></thead>";
+  var tb = el("tbody");
+  allRows.filter(function (r) { return r.p != null; }).forEach(function (r) {
+    var h = 0; Object.keys(r.c).forEach(function (i) { h += r.c[i].h || 0; });
+    var tr = el("tr");
+    [r.g.name, r.name, r.k, fmt(r.p), r.dueTxt || "", h ? fmt(h) : ""].forEach(function (v, i) { tr.appendChild(el("td", i >= 3 ? "num" : "", v)); });
+    tb.appendChild(tr);
+  });
+  var tr2 = el("tr"); ["Las cuatro", "Evaluación de la unidad 1", "Evaluación", "3,5 c/u", "Sáb 7 y dom 8 nov", ""].forEach(function (v, i) { tr2.appendChild(el("td", i >= 3 ? "num" : "", v)); });
+  tb.appendChild(tr2); t.appendChild(tb);
+
+  // tooltip
+  var tip = document.getElementById("tip");
+  document.addEventListener("pointermove", function (e) {
+    var n = e.target.closest ? e.target.closest("[data-tip]") : null;
+    if (!n) { tip.style.opacity = 0; return; }
+    tip.textContent = n.dataset.tip; tip.style.opacity = 1;
+    var x = e.clientX + 12, y = e.clientY + 14, w = tip.offsetWidth;
+    if (x + w > window.innerWidth - 8) x = window.innerWidth - w - 8;
+    tip.style.left = Math.max(8, x) + "px"; tip.style.top = y + "px";
+  });
+  document.addEventListener("pointerleave", function () { tip.style.opacity = 0; });
+})();
+</script>
