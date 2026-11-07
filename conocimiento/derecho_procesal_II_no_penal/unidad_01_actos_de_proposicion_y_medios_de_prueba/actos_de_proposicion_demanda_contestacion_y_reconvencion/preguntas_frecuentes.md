@@ -12,3 +12,9 @@
 10. ¿Cuándo se inadmite la demanda? (art. 147)
 
 Respuestas sugeridas en `salida/examenes/derecho_procesal_II_no_penal_simulacro_unidad_01.md`.
+11. ★★★★★ ¿Cuáles son los cuatro actos de proposición? Demanda, contestación, reconvención y contestación a la reconvención (arts. 141 a 157). [Video Cando]
+12. ★★★★★ ¿Qué diferencia hay entre contestar la demanda y reconvenir? Contestar es defenderse; reconvenir es contraatacar con otra demanda en el mismo proceso. [Video Cando]
+13. ★★★★★ ¿En qué casos no procede la reconvención? En alimentos (art. 154) y en el monitorio (art. 359). En laborales y sumarios solo la conexa (arts. 150 y 333.2).
+14. ★★★★ ¿Qué debe contener la contestación? Pronunciamiento sobre hechos, pruebas y pretensiones; qué admite y qué niega; excepciones previas y de fondo; prueba de descargo (arts. 151 a 153).
+15. ★★★★ ¿Dónde se tramita la reconvención? En el mismo procedimiento y se resuelve con la demanda y las excepciones (art. 154).
+16. ★★★ ¿Qué elementos tiene todo acto de proposición? Hechos, sujetos, medios de prueba, normas de derecho y pretensión. [Video Cando]

@@ -161,5 +161,10 @@
   {"id":"mancha-verde","t":"Mancha verde abdominal","m":"medicina","s":"Primer signo de putrefacción, en la parte baja derecha del abdomen (fosa ilíaca derecha).","v":["mancha verde"]},
   {"id":"colicuativa","t":"Etapa colicuativa","m":"medicina","s":"Fase de la putrefacción en que los órganos pierden su forma y su consistencia, y la piel se desprende.","v":["colicuativa"]},
   {"id":"autopsia","t":"Autopsia","m":"medicina","s":"Examen del cuerpo después de la muerte para establecer la causa y las circunstancias.","v":["autopsias"]},
-  {"id":"declive","t":"Zonas declives","m":"medicina","s":"Las partes más bajas del cuerpo según su posición, hacia donde baja la sangre por gravedad.","v":["declives"]}
+  {"id":"declive","t":"Zonas declives","m":"medicina","s":"Las partes más bajas del cuerpo según su posición, hacia donde baja la sangre por gravedad.","v":["declives"]},
+  {"id":"reconviniente","t":"Reconviniente","m":"procesal","s":"El demandado que presenta la reconvención: deja de solo defenderse y también ataca.","e":"Te cobran una deuda y tú reclamas que el actor te debe otra cosa: eres el reconviniente.","a":"art. 154"},
+  {"id":"reconvenido","t":"Reconvenido","m":"procesal","s":"El actor al que el demandado le presenta la reconvención. Debe contestarla, igual que el demandado contesta la demanda.","a":"art. 155"},
+  {"id":"reconvencion-conexa","t":"Reconvención conexa","m":"procesal","s":"La contrademanda que tiene relación con lo que se discute en el juicio. En laborales y en el sumario solo se admite esta.","e":"Demanda por despido y el patrono reclama anticipos de sueldo: conexa. Que el trabajador le deba plata a su hermano: no.","a":"arts. 150 y 333"},
+  {"id":"prueba-cargo-descargo","t":"Prueba de cargo y de descargo","m":"procesal","s":"De cargo: la que anuncia quien ataca (actor o reconviniente). De descargo: la de quien se defiende (demandado o reconvenido).","v":["prueba de cargo","prueba de descargo","pruebas de cargo","pruebas de descargo"]},
+  {"id":"autocomposicion","t":"Autocomposición","m":"procesal","s":"Cuando las partes mismas resuelven el conflicto con un acuerdo, sin que el juez lo imponga: conciliación y transacción.","v":["autocomposición"]}
 ]

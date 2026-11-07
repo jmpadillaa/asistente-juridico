@@ -26,3 +26,13 @@
 ## Preclusión y anuncio de la prueba
 
 - La demanda y la contestación son los actos en que se anuncia y adjunta la prueba; la que no se anuncia no se puede introducir en la audiencia, salvo las excepciones del COGEP (art. 159). Ver el tema de la prueba.
+## Ampliación del video de Cando y de la tutoría de la semana 6 (7-nov-2026)
+
+- **Elementos del acto de proposición:** escrito; hechos (fundamentos de hecho); sujetos activo y pasivo; medios de prueba (testimonial, documental, pericial y ocular o inspección judicial); normas jurídicas (fundamentos de derecho); pretensión ajustada a una norma. [Video Cando]
+- Son **cuatro** actos: demanda, contestación a la demanda, reconvención y contestación a la reconvención (arts. 141 a 157, Libro III, título I). La docente Orosco los simplifica como "la demanda" en clase; en el examen conviene nombrar los cuatro.
+- **Contestar no es reconvenir:** al contestar el demandado solo se defiende; para contraatacar (por ejemplo, pedir la prescripción adquisitiva frente a una reivindicación) debe reconvenir. [Video Cando]
+- La reconvención abre un proceso **en paralelo** y el juez resuelve ambos en la sentencia (art. 154). Va en el **mismo procedimiento** que la demanda. Aplica las reglas de la demanda "en lo pertinente": se omite lo innecesario, como el dato de citación del demandado.
+- **No procede la reconvención** en alimentos (art. 154) ni en el procedimiento monitorio (art. 359). En laborales (art. 150) y en el sumario (art. 333 num. 2) solo cabe la **conexa**.
+- **Pruebas de cargo y de descargo:** el actor y el reconviniente anuncian pruebas de cargo; el demandado y el reconvenido, de descargo.
+- Contestación a la reconvención: la hace el actor, ahora **reconvenido**, frente al **reconviniente**; mismos requisitos que la contestación (arts. 151 a 153 y 155).
+- Dicho de la docente en la semana 6: el cuestionario "está en base a todo lo que hemos visto" y pide explicar el porqué de cada respuesta.

@@ -33,3 +33,11 @@
 ## Qué dijo la docente
 
 Insistió en distinguir las diligencias preparatorias (antes del proceso) de las providencias preventivas (antes o dentro) y puso ejemplos de alimentos: retención de salarios, alquileres y vehículo; apremio por pensiones impagas. [Clase, semana 3]
+## Ampliación de la tutoría de la semana 6 (7-nov-2026)
+
+- **Diligencia preparatoria (art. 120):** no reemplaza la prueba del proceso principal, solo la asegura. El juzgador que la conoce es competente para la demanda principal.
+- **Medidas con la causa en la corte provincial:** se piden al juez de primera instancia, que es quien ejecuta lo resuelto. [Docente]
+- **Interrupción (art. 128):** garantía suficiente (caución u otro bien) dentro de la cuantía adeudada. [Docente]
+- **Secuestro (art. 129):** custodia del bien durante el litigio; no transfiere la propiedad ni autoriza a venderlo. Si el deudor no paga en la ejecución, se remata. [Docente]
+- **Retención (art. 130):** dura hasta el pago de lo adeudado (capital, intereses, costas, liquidación), no solo hasta la sentencia. Si no cubre, se piden medidas sobre bienes del garante. [Docente]
+- **Apremio personal por deudas:** solo en alimentos (la docente); el art. 135 limita el apremio personal a los casos en que la ley lo autoriza y el art. 137 regula el de alimentos (parcial de 22h a 6h por 30 días; total hasta 30 días, con reincidencia hasta 180). No cabe contra obligados subsidiarios ni garantes (art. 137).

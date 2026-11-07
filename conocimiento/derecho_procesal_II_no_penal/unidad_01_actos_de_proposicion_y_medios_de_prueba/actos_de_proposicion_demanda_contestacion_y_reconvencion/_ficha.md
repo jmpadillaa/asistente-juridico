@@ -25,3 +25,6 @@ Guía (1.3), COGEP, semana 3 (estructura de la demanda), semana 5 (video foro) y
 ## Estado de actualización
 
 Incorporado el 31-oct-2026.
+## Actualización del 7-nov-2026
+
+Fuentes nuevas: video de Cando sobre los actos de proposición (cuatro actos, elementos, definiciones, reconvención conexa y casos en que no procede) y la tutoría de la semana 6. El video se verificó contra los arts. 142 a 144, 150 a 155, 332, 333 y 359 del COGEP; no hay contradicciones. Pendiente: arts. 185 y 188 del Código del Trabajo citados en el video (el Código no está en la carpeta).

@@ -20,3 +20,6 @@ Guía (1.5), COGEP (texto de los arts. 233 a 248), tutoría y diapositivas de la
 ## Estado de actualización
 
 Incorporado el 31-oct-2026.
+## Actualización del 7-nov-2026
+
+Fuente nueva: tutoría de la semana 6 (cuestionario de 20 preguntas de la docente Orosco, todas las respuestas de la clave confirmadas). Contradicción registrada: la docente dijo que el abandono tampoco cabe en sumarios; el art. 247 no lo incluye. Ver `salida/resumenes/derecho_procesal_II_no_penal/clase_06_tutoria_cuestionario_previo_a_la_evaluacion.md`.

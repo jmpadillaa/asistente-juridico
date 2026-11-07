@@ -1,7 +1,7 @@
 # Flashcards: Derecho Procesal II (No Penal) · Unidad 1
 
 **Agente:** Preparador de Exámenes · Fuentes: `conocimiento/` (clases, guía, sílabo, texto de las normas). 
-45 tarjetas. El archivo `derecho_procesal_II_no_penal_unidad_01.csv` se importa en Anki (separador punto y coma). Las marcadas *por verificar* dependen de una norma que no está en la carpeta.
+65 tarjetas (las 46 a 65 se agregaron el 7-nov-2026 desde el video de Cando y la tutoría de la semana 6). El archivo `derecho_procesal_II_no_penal_unidad_01.csv` se importa en Anki (separador punto y coma). Las marcadas *por verificar* dependen de una norma que no está en la carpeta.
 
 | # | Pregunta | Respuesta |
 |---|---|---|
@@ -50,3 +50,23 @@
 | 43 | Abandono | Todas las partes cesan en la prosecución durante seis meses desde la última notificación útil; no cabe en niñez, laboral, voluntarios ni ejecución (arts. 245 y 247). |
 | 44 | Procedimiento sumario (art. 333) | No reforma de demanda; solo reconvención conexa; contestación en 15 días; audiencia única en dos fases en 30 días desde la contestación; resoluciones apelables. |
 | 45 | Procedimiento ejecutivo (APE): títulos | Letras de cambio entre los títulos ejecutivos (art. 347); la obligación debe ser clara, pura, determinada, actualmente exigible y líquida (art. 348). |
+| 46 | ¿Cuáles son los cuatro actos de proposición? | Demanda, contestación a la demanda, reconvención y contestación a la reconvención (COGEP, arts. 141 a 157). |
+| 47 | Elementos de todo acto de proposición | Es escrito; narra hechos; identifica sujetos activo y pasivo; anuncia medios de prueba; invoca normas de derecho; formula una pretensión ajustada a la norma (video de Cando). |
+| 48 | Diferencia entre contestar la demanda y reconvenir | Contestar es defenderse; reconvenir es contraatacar con una contrademanda dentro del mismo proceso. Ejemplo: frente a una reivindicación, pedir la prescripción adquisitiva exige reconvenir. |
+| 49 | ¿Cuándo no procede la reconvención? | En alimentos (art. 154) y en el procedimiento monitorio (art. 359). En laborales y en el sumario solo cabe la reconvención conexa (arts. 150 y 333 num. 2). |
+| 50 | Reconvención conexa: ejemplo | El trabajador demanda por despido y el empleador reconviene por anticipos de remuneración: conexa. Reconvenir porque el trabajador debe USD 500 a su hermano: no es conexa y no se admite. |
+| 51 | Pruebas de cargo y de descargo | De cargo: las anuncian quienes atacan (actor, reconviniente). De descargo: quienes se defienden (demandado, reconvenido). |
+| 52 | ¿Quién contesta la reconvención? | El actor, que pasa a ser el reconvenido, frente al reconviniente; con el tiempo y la forma de la contestación a la demanda (arts. 151 a 155). |
+| 53 | Cuestionario de la docente: ¿qué finalidades tiene la diligencia preparatoria? | Determinar o completar la legitimación activa o pasiva y anticipar prueba urgente que pudiera perderse (art. 120). El mismo juez conoce luego la demanda principal. |
+| 54 | Medidas cautelares con la causa en la corte provincial | Se piden al juez de primera instancia, porque es quien ejecuta lo resuelto (docente, semana 6). |
+| 55 | Interrupción de providencias preventivas (art. 128) | El deudor ofrece garantía suficiente, caución u otro bien, dentro de la cuantía adeudada. |
+| 56 | Secuestro (art. 129) frente a retención (art. 130) | Secuestro: el bien queda bajo custodia durante el litigio; no cambia de dueño. Retención: recae en rentas, créditos o bienes del deudor en poder de un tercero. |
+| 57 | ¿Hasta cuándo dura la retención? | Hasta el pago de lo adeudado (capital, intereses, costas y liquidación), no solo hasta la sentencia (docente, semana 6). |
+| 58 | Apremio personal por deudas | Solo en alimentos (docente). Parcial: privación de libertad de 22h a 6h por 30 días; total: hasta 30 días, con reincidencia hasta 180 (art. 137). |
+| 59 | Conciliación frente a transacción | Ambas son autocomposición. La conciliación se hace en audiencia ante el juez y se aprueba en sentencia (arts. 233 y 234); la transacción es acuerdo con concesiones recíprocas que el juez autoriza (art. 235). |
+| 60 | Transacción frente a allanamiento | Transacción: concesiones recíprocas de las partes. Allanamiento: el demandado acepta la pretensión del actor, total o parcialmente (art. 241). |
+| 61 | Antes de valorar una transacción, ¿qué examina el juez? | La capacidad de las partes, la disponibilidad del derecho y el alcance del acuerdo (cuestionario, pregunta 16). |
+| 62 | Desistimiento en alimentos | El actor de alimentos no puede desistir (art. 240 num. 4); prima el interés superior del niño y la oficina técnica valora. En una letra de cambio pagada, el actor sí puede. |
+| 63 | Allanamiento parcial: ejemplo | Demanda por USD 12.000; el demandado reconoce USD 8.000 y discute el resto: el proceso sigue por USD 4.000 (art. 241). |
+| 64 | Abandono: lo que se dijo en la tutoría | Seis meses sin actividad antes de la sentencia; no con sentencia dictada ni en ejecución; no en niñez (art. 247). La docente añadió los sumarios, pero el art. 247 no los menciona: responder con el COGEP. |
+| 65 | ¿Quién declara el abandono? | El juzgador, cuando se cumplen los requisitos: el secretario sienta razón del tiempo transcurrido desde la última providencia y el juez lo dispone (art. 245). |

@@ -28,3 +28,6 @@ Textos de los arts. 136 a 138 en detalle y jurisprudencia.
 ## Estado de actualización
 
 Incorporado el 31-oct-2026 desde la guía, el COGEP y la semana 3.
+## Actualización del 7-nov-2026
+
+Fuente nueva: tutoría de la semana 6 (preguntas 1 a 10 del cuestionario, explicadas por la docente con ejemplos de secuestro, retención y apremio). Contraste con el art. 137: el orden de apremios en alimentos que dio la docente es un resumen libre.

@@ -26,4 +26,18 @@ Fuente: `entrada/guias/DerechoProcesalIINoPenal/Clases/CUESTIONARIO DERECHO PROC
 | 20 | d | Allanamiento parcial (Luis reconoce USD 8.000 de 12.000) |
 
 ## Nota
-Respuestas deducidas del texto de las preguntas y de las diapositivas citadas (el PDF no trae clave). Verificar los Arts. 120, 124, 128-130 y 134 del COGEP en `entrada/bibliografia/Normas/`. Distinciones a repasar: desistimiento (unilateral) vs. allanamiento (del demandado) vs. transacción/conciliación (bilateral) vs. abandono (inactividad).
+Las 20 respuestas fueron **confirmadas por la docente** en la tutoría de la semana 6 (viernes 6-nov-2026, `Clases/Semana_06.txt`); antes se habían deducido del texto de las preguntas (el PDF no trae clave). Verificar los Arts. 120, 124, 128-130 y 134 del COGEP en `entrada/bibliografia/Normas/`. Distinciones a repasar: desistimiento (unilateral) vs. allanamiento (del demandado) vs. transacción/conciliación (bilateral) vs. abandono (inactividad).
+
+## Explicaciones de la docente (semana 6)
+
+Resumen completo: `salida/resumenes/derecho_procesal_II_no_penal/clase_06_tutoria_cuestionario_previo_a_la_evaluacion.md`. Lo que más conviene recordar para explicar el porqué:
+
+- 5: se piden al juez de primera instancia porque es quien ejecuta lo que resuelven los de segunda instancia y la corte.
+- 7: art. 128, garantía suficiente (caución u otro bien) dentro de la cuantía adeudada.
+- 8: el secuestro pone el bien en custodia; no transfiere la propiedad ni autoriza a venderlo.
+- 9: la retención dura hasta el pago de lo adeudado, no solo hasta la sentencia.
+- 10: el apremio personal por deuda solo existe en alimentos.
+- 12 y 13: en alimentos con demandado citado no se puede desistir (art. 240 num. 4); en una letra de cambio pagada sí.
+- 14 y 20: allanamiento parcial, el proceso sigue por lo no aceptado (art. 241).
+- 15: transacción = concesiones recíprocas; allanamiento = aceptar la pretensión.
+- 18 y 19: abandono tras seis meses sin actividad antes de la sentencia (art. 245); no cabe en niñez (art. 247); lo declara el juez.
